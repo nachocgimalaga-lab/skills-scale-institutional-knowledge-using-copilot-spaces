@@ -20,6 +20,24 @@ OctoAcme uses a structured, customer-first project management approach focused o
 4. **Release** - Deploy to production and verify success
 5. **Retrospective** - Capture learnings and drive continuous improvement
 
+---
+
+## How OctoAcme Executes Projects
+
+### Approach & Lifecycle
+
+OctoAcme employs a structured, customer-first project management methodology organized around five key phases: **Initiation**, **Planning**, **Execution**, **Release**, and **Retrospective**. The approach is grounded in five core principles: prioritizing customer value and usability, delivering small testable increments iteratively, maintaining clear ownership through named roles, making data-informed decisions, and fostering psychological safety for feedback and learning. Each project begins with lightweight validation through a Project One-pager that confirms business need, identifies stakeholders, and establishes success metrics before advancing to detailed planning. This ensures alignment early and reduces wasted effort on misaligned initiatives.
+
+### Roles, Responsibilities & Communication
+
+Three primary personas drive OctoAcme projects: **Project Managers** coordinate delivery, schedules, risks, and communications; **Product Managers** define what should be built, prioritize the backlog, and measure outcomes; and **Developers** collaborate on design, implementation, testing, and quality standards. The organization maintains a consistent communication rhythm: weekly PM–Product Manager alignment, twice-weekly delivery team standups, monthly stakeholder updates, and ad-hoc escalations as needed. Risk management and dependencies are tracked through a formal Risk Register and escalated through a tiered path (team-level → PM → Product Lead → Sponsor), ensuring that blockers and issues surface quickly without getting lost in silos.
+
+### Execution, Quality & Continuous Improvement
+
+During execution, teams follow a structured cadence with daily standups, weekly delivery syncs, and sprint-based planning to manage workload and track progress against milestones. Quality is embedded throughout: unit and integration tests are mandatory, automated CI/CD handles security scanning and linting, and smoke tests precede any production release. The project board (e.g., GitHub Projects) provides transparency across Backlog, Ready, In Progress, In Review, QA, and Done columns. Pull requests are kept small (≤400 lines when possible) and require at least one approval before merging. Finally, retrospectives held after each sprint or milestone capture learnings and convert them into prioritized action items with named owners and due dates, creating a culture of continuous improvement and institutional knowledge retention.
+
+---
+
 ## Documentation Index
 
 ### Core Framework & Guidance
@@ -86,4 +104,4 @@ To suggest updates or additions to these process documents, use the [Add Content
 
 ---
 
-*Last updated: 2026-05-18*
+*Last updated: 2026-05-19*
